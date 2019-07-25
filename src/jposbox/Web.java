@@ -353,7 +353,7 @@ public class Web {
                     P.add(s);
                     P.print(PosBoxFrame.ComboPrinter1.getSelectedItem().toString(), 1,"7");
                 }
-                if (text!=null){
+                else if (text!=null){
                     PosPrinter P= new PosPrinter();
                     P.html=true;
                     P.P=text;
